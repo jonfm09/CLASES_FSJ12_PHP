@@ -1,0 +1,37 @@
+
+<?php
+
+    // Crea una función que muestre la tabla de multiplicar del 1 al 10, 
+    // la función tendrá un parámetro entero para mostrar la tabla de multiplicación en base al número ingresado 
+
+
+    //  readline("") --> Sirve para pedir un valor
+
+    $multiplo = readline("\nIngresa el numero hasta donde pondras la tabla:");
+
+    echo "\n";
+
+    // Solucion 1
+    
+    $arrayTabla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    // for ($i=0; $i < count($arrayTabla); $i++) {
+    // $multiplicacion = $multiplo * $arrayTabla[$i];    
+    // echo $multiplo." x ".$arrayTabla[$i]." = ".$multiplicacion."\n";}
+        
+     // Solucion 2
+        
+     // $variable -> $arrayTabla ||  $key = $i   ||  $value = $arrayTabla[$i]
+     // foreach ($arrayTabla as $key => $value) {
+     // $multiplicacion = $multiplo * $value;
+     // echo $multiplo." x ".$value." = ".$multiplicacion."\n";}
+            
+            
+    // Solucion 3
+            
+    // for ($i=1; $i < 11 ; $i++) {    
+    // echo $multiplo." x ".$i." = ".($multiplo * $i)."\n";
+
+   // }
+            
+?>
